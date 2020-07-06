@@ -1,0 +1,200 @@
+.AddBook{
+    background-color: #9d9da3;
+    border: 2px solid #6f6e73;
+    min-height: 420px;
+}
+.AddBook form{
+    position: relative;
+    text-align: center;
+}
+.AddBook h1{
+    text-align: center;
+}
+
+.errorMessage{
+    color: red;
+}
+
+
+
+.TitlePass{
+    color: #ffffff;
+    margin-top: 3px;
+    margin-left: 110px;
+    padding-right: 10px;
+    padding-left: 3px;
+    text-align: left;
+    font-size: small;
+    font-family: Arial;
+
+}
+.TitleFail{
+    color: #ed2c09;
+    background-color: #babbc2;
+    margin-top: 3px;
+    margin-left: 110px;
+    padding-right: 10px;
+    padding-left: 3px;
+    text-align: left;
+    font-size: small;
+    font-family: Arial;
+}
+.GenrePass{
+    color: #ffffff;
+    margin-top: 3px;
+    margin-left: 110px;
+    padding-right: 10px;
+    padding-left: 3px;;
+    text-align: left;
+    font-size: small;
+    font-family: Arial;
+
+}
+.GenreFail{
+    color: #ed2c09;
+    background-color: #babbc2;
+    margin-top: 3px;
+    margin-left: 110px;
+    padding-right: 10px;
+    padding-left: 3px;
+    text-align: left;
+    font-size: small;
+    font-family: Arial;
+}
+
+input {
+    width: 250px;
+    height: 25px;
+    border: 2px solid #6f6e73;
+    border-radius: 5px;
+    padding-left: 5px;
+    font-family: "Times New Roman";
+    color: #02000a;
+    font-size: 15px;
+  }
+.InputFail{
+    border: 2px solid #ed2c09 ;
+}
+
+.arrowContainer{
+    position: relative;
+    width: 250px;
+    height: 26px;
+    border: 2px solid #6f6e73;
+    border-radius: 5px;
+    margin-left: 110px;
+    background-color: #ffffff;
+    padding-right: 0;
+    /*border-left: none;*/
+    /*padding-bottom: 3px;*/
+}
+.text{
+    text-align: left;
+    padding-top: 2px;
+    padding-left: 5px;
+    font-family: "Times New Roman";
+    color: #02000a;
+    font-size: 15px;
+}
+
+.arrowDown{
+    position: absolute;
+    top:8px;
+    left:4px;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 10px solid #ffffff;
+}
+.arrowUp{
+    position: absolute;
+    top:7px;
+    left:4px;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 10px solid #ffffff;
+}
+.arrow{
+    border: 2px solid #6f6e73;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom: none;
+    border-top:none;
+    border-right: none;
+    width: 27px;
+    height: 26px;
+    background-color: #6f6e73;
+    position: absolute;
+    top:0;
+    right: 0;
+}
+.arrow:hover{
+    cursor: pointer;
+    background-color: #000000;
+
+}
+.selectAuthor{
+    position: relative;
+}
+
+.authorName{
+    position: absolute;
+    border: 2px solid #6f6e73;
+    z-index: 50;
+    background-color: rgba(255, 255, 255, 1);
+    margin-left: 110px;
+    width: 250px;
+    text-align: left;
+    border-radius: 5px;
+
+}
+.eachAuthor{
+    border: 1px solid rgba(182, 181, 186, 0.5);
+    border-left: none;
+    padding-left: 5px;
+}
+.eachAuthor:hover{
+    cursor: pointer;
+    background-color: rgba(182, 181, 186, 0.5);
+    font-weight: bold;
+}
+
+.finalMessage{
+    width:475px;
+    height: 80px;
+    text-align: left;
+
+}
+.finalMessage p{
+    margin-left: 110px;
+    height: 40px;
+    color: #ed2c09;
+    padding-top: 10px;
+    padding-bottom: 0;
+        }
+
+.addBookButton{
+    box-sizing: border-box;
+    margin-top: 30px;
+
+
+}
+.addBookButton button{
+    margin-left: -181px;
+    border: 1px solid #000000;
+    height: 35px;
+    border-radius: 10px;
+    color:#000000;
+    font-family: "Times New Roman";
+    font-size: 15px;
+}
+
+.addBookButton button:hover{
+    cursor: pointer;
+    background-color: #000000;
+    color:#ffffff ;
+    border: 2px solid #ffffff;
+}

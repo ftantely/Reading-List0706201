@@ -1,0 +1,208 @@
+/*-----BookList-----*/
+.BookList{
+    position: relative ;
+    min-width: 960px;
+    grid-area: BookList;
+    background-color: #9d9da3;
+    box-sizing: border-box;
+}
+
+.book-list{
+    display: inline-block;
+    float: left ;
+}
+/*------- insid title------*/
+
+.title{
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    position: relative;
+    min-width: 100px;
+    min-height: 53px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background-color: #ffffff;
+}
+.tooltipButton {
+    height: 18px;
+    width: 18px;
+    margin-left: 10px;
+}
+
+    .tooltipButton button{
+        border: none;
+        height: 25px;
+        width: 25px;
+        background-image: url("../image/Delete1.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 22px;
+        border-radius: 5px;
+
+    }
+    .tooltipTextButton {
+        visibility: hidden;
+        width: 53px;
+        background-color: #ffffff;
+        color: #000000;
+        text-align: center;
+        border-radius: 10px;
+        font-size: small;
+        bottom:-25px;
+        left: 35px;
+        border: 1px solid #000000;
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 8;
+    }
+    .tooltipButton button:hover{
+        visibility: visible;
+        cursor: pointer;
+        background-image: url("../image/Delete4.png");
+    }
+    .tooltipButton:hover .tooltipTextButton{
+        visibility: visible;
+    }
+.tooltipTitle {
+    height: 20px;
+    margin: 2px 10px 0 10px;
+    padding: 0;
+}
+.tooltipTextTitle{
+    visibility: hidden;
+    width: 80px;
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    border-radius: 6px;
+    padding: 0 ;
+    font-size: small;
+    left:45px;
+    border: 1px solid #000000;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 8;
+}
+
+    .tooltipTitle:hover .tooltipTextTitle{
+        visibility: visible;
+    }
+    .tooltipTitle p{
+        margin-bottom: 5px;
+        margin-top: 3px;
+    }
+    .tooltipTitle p:hover{
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+/*-------- Inside details----------*/
+.details{
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: #6f6e73 2px solid;
+
+    width: 32%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.noBook {
+    text-align: center;
+}
+.bookDetails h1{
+    text-align: center;
+}
+.genre{
+    height: 30px;
+    margin-bottom: 20px;
+    margin-left:15px ;
+    margin-right: 10px;
+}
+    .genre span{
+        font-weight: bold;
+    }
+.authorAge{
+    position: relative;
+    box-sizing: border-box;
+    margin-left: 15px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    height: 30px;
+}
+
+    .age{
+    position: absolute;
+    top: 0;
+    right: 90px;
+
+
+    }
+        .age span{
+            font-weight: bold;
+            color: red;
+            margin-left: 5px;
+        }
+    .author_{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-right: 25px;
+    max-width: 250px;
+    }
+        .author_ span{
+            font-weight: bold;
+        }
+.allBooks{
+    min-height: 40px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+    .allBooks span{
+        font-weight: bold;
+    }
+    .allBooks li{
+
+        margin: 10px 10px 10px 25px;
+    }
+
+    /*Inside form*/
+
+
+.Form {
+    position: relative;
+    min-height: 500px;
+}
+.stuff{
+    margin: 0;
+    width: 63.8%;
+    min-height: 500px;
+    border: 2px solid #6f6e73;
+}
+
+.emptyBook{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 63.5%;
+    border: #6f6e73 2px solid;
+    min-height: 500px;
+}
+.emptyBook h1{
+    text-align: center;
+}
+.emptyDetails{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 36%;
+    min-height: 500px;
+    border: #6f6e73 2px solid;
+}
+.emptyDetails h1{
+    text-align: center;
+}

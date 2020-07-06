@@ -1,0 +1,132 @@
+.UpdateBook{
+    background-color: #9d9da3;
+    border: 2px solid #6f6e73;
+    min-height: 460px;
+}
+.UpdateBook form{
+    position: relative;
+    text-align: center;
+}
+.UpdateBook h1{
+    text-align: center;
+}
+
+.arrowContainerBook{
+    position: relative;
+    width: 250px;
+    height: 26px;
+    border: 2px solid #6f6e73;
+    border-radius: 5px;
+    margin-left: 110px;
+    background-color: #ffffff;
+    padding-right: 0;
+    /*border-left: none;*/
+    /*padding-bottom: 3px;*/
+}
+.textBook{
+    text-align: left;
+    padding-top: 2px;
+    padding-left: 5px;
+    font-family: "Times New Roman";
+    color: #02000a;
+    font-size: 15px;
+}
+
+.arrowDownBook{
+    position: absolute;
+    top:8px;
+    left:4px;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 10px solid #ffffff;
+}
+.arrowUpBook{
+    position: absolute;
+    top:7px;
+    left:4px;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 10px solid #ffffff;
+}
+.arrowBook{
+    border: 2px solid #6f6e73;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom: none;
+    border-top:none;
+    border-right: none;
+    width: 27px;
+    height: 26px;
+    background-color: #6f6e73;
+    position: absolute;
+    top:0;
+    right: 0;
+}
+.arrowBook:hover{
+    cursor: pointer;
+    background-color: #000000;
+
+}
+.selectBook{
+    margin-top: 30px;
+
+}
+
+.eachBook{
+    border: 1px solid rgba(182, 181, 186, 0.5);
+    border-left: none;
+    padding-left: 5px;
+}
+.eachBook:hover{
+    cursor: pointer;
+    background-color: rgba(182, 181, 186, 0.5);
+    font-weight: bold;
+}
+
+.bookTitle{
+    position: absolute;
+    border: 2px solid #6f6e73;
+    z-index: 50;
+    background-color: rgba(255, 255, 255, 1);
+    margin-left: 110px;
+    width: 250px;
+    text-align: left;
+    border-radius: 5px;
+
+}
+.updateBook{
+    box-sizing: border-box;
+    margin-top: 30px;
+
+
+}
+.updateBook button{
+    margin-left: -160px;
+    border: 1px solid #000000;
+    height: 35px;
+    border-radius: 10px;
+    color:#000000;
+    font-family: "Times New Roman";
+    font-size: 15px;
+}
+
+.updateBook button:hover{
+    cursor: pointer;
+    background-color: #000000;
+    color:#ffffff ;
+    border: 2px solid #ffffff;
+}
+.finalMessageBook{
+    width:475px;
+    height: 80px;
+    text-align: left;
+
+}
+.finalMessageBook p{
+   margin-left: 110px;
+    color: #ed2c09;
+}

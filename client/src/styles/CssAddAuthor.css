@@ -1,0 +1,95 @@
+.AddAuthor{
+    background-color: #9d9da3;
+    border: 2px solid #6f6e73;
+    min-height: 420px;
+}
+.AddAuthor form{
+    position: relative;
+    text-align: center;
+}
+.AddAuthor h1{
+    text-align: center;
+}
+
+.nameFail{
+    color: #ed2c09;
+    background-color: #babbc2;
+    margin-top: 3px;
+    margin-left: 110px;
+    padding-right: 10px;
+    padding-left: 3px;
+    text-align: left;
+    font-size: small;
+    font-family: Arial;
+}
+.namePass{
+    color: #ffffff;
+    margin-top: 3px;
+    margin-left: 110px;
+    padding-right: 10px;
+    padding-left: 3px;;
+    text-align: left;
+    font-size: small;
+    font-family: Arial;
+
+}
+.ageFail{
+    color: #ed2c09;
+    background-color: #babbc2;
+    margin-top: 3px;
+    margin-left: 110px;
+    padding-right: 10px;
+    padding-left: 3px;
+    text-align: left;
+    font-size: small;
+    font-family: Arial;
+}
+.agePass{
+    color: #ffffff;
+    margin-top: 3px;
+    margin-left: 110px;
+    padding-right: 10px;
+    padding-left: 3px;;
+    text-align: left;
+    font-size: small;
+    font-family: Arial;
+
+}
+
+.addAuthor{
+    box-sizing: border-box;
+    margin-top: 30px;
+
+
+}
+.addAuthor button{
+    margin-left: -175px;
+    border: 1px solid #000000;
+    height: 35px;
+    border-radius: 10px;
+    color:#000000;
+    font-family: "Times New Roman";
+    font-size: 15px;
+}
+
+.addAuthor button:hover{
+    cursor: pointer;
+    background-color: #000000;
+    color:#ffffff ;
+    border: 2px solid #ffffff;
+}
+
+.finalMessageAuthor{
+    width:475px;
+    height: 80px;
+    text-align: left;
+
+}
+.finalMessageAuthor p{
+    margin-left: 110px;
+    color: #ed2c09;
+}
+.Age_{
+    margin-left: -8px;
+}
+

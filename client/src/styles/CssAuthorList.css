@@ -1,0 +1,90 @@
+.AuthorList{
+    background-color: #9d9da3;
+    border: 2px solid #6f6e73;
+    min-height: 420px;
+}
+
+
+.tooltipDeleteText{
+    visibility: hidden;
+    width: 53px;
+    height: 30px;
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    border-radius: 10px;
+    padding: 0 ;
+    font-size: small;
+    bottom:-10px;
+    left: 30px;
+    border: 1px solid #9d9da3;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 8;
+}
+
+.Delete:hover .tooltipDeleteText {
+    visibility: visible;
+}
+
+.Delete button{
+    border: none;
+    height: 30px;
+    width: 30px;
+    background-image: url("../image/Delete1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 24px;
+    border-radius: 5px;
+}
+
+.authorDelete{
+    box-sizing: border-box;
+    position: relative;
+    vertical-align: center;
+    border-left: none;
+    padding-left: 5px;
+}
+.authorDelete .Delete{
+    position: absolute;
+    top: 2px;
+    right: 5px;
+}
+.authorDelete .Delete button:hover{
+    cursor: pointer;
+    background-image: url("../image/Delete4.png");
+}
+.authorDelete .nameAuth{
+    position: absolute;
+    top: 7px;
+    left: 10px;
+}
+.nameAuth1{
+    position: relative;
+    min-width: 300px;
+    height: 31px;
+    border-left: none;
+}
+.nameAuth1 div{
+    position: absolute;
+    top: 7px;
+    left: 10px;
+}
+.liAuth{
+    list-style: none;
+}
+.authorList{
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-left: 70px;
+    width: 300px;
+    height: 36px;
+}
+.noAuthor h1{
+    text-align: center;
+}
+.wAuthor h1{
+    text-align: center;
+}
